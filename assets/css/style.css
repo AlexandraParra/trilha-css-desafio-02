@@ -1,0 +1,113 @@
+body{
+    margin: 0 20px;
+}
+
+header, .features, main, .playlist-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    padding-top: 60px;
+    gap: 20px;
+}
+
+.current-video{
+    width: 70vw;
+    height: 65vh;
+}
+
+.playlist{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.description{
+    width: 35vw;
+}
+
+header{
+    width: calc(100vw - 40px);
+    height: 55px;
+    background: #FFF;
+    position: fixed;
+    align-items: center;
+}
+
+header>div{
+    display: flex;
+    gap: 15px;
+}
+
+.icon{
+    height: 24px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-dio{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.logo-dio>div>p{
+    margin: 0%;
+}
+
+.logo-dio>div>span{
+    color: rgb(105, 105, 105);
+}
+
+.features{
+    width: 60vw;
+}
+
+.features>button{
+    width: 159px;
+    color: #FFF;
+    background: red;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    height: 24px;
+}
+
+.description-title{
+    display: flex;
+    gap: 20px;
+    font-weight: 900;
+}
+
+.description>span, .video-feat{
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+    margin: 02px 0;
+}
+
+.playlist-item{
+    height: 90px;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.video-title{
+    margin: 5px 0;
+}
