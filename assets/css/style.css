@@ -1,5 +1,5 @@
 body{
-    margin: 0 20px;
+    flex-wrap: wrap-reverse;
 }
 
 header, .features, main, .playlist-item{
@@ -39,6 +39,7 @@ header{
 
 header>div{
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 
@@ -109,5 +110,6 @@ header>div{
 }
 
 .video-title{
+    font-size: 14px;
     margin: 5px 0;
 }
